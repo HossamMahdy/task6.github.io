@@ -1,0 +1,114 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin: 100px 50px;     
+}
+.first_part
+{
+    background-color: hsl(31, 77%, 52%);
+    width: 300px;
+    height: 450px;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-left: 35px;
+    padding-top: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+p 
+{
+   color:  hsla(0, 0%, 100%, 0.75);
+   font-family: 'Tajawal', sans-serif;
+   font-weight:  400;
+   font-size: medium;
+   justify-content: center;
+   padding-right: 110px;
+}
+a
+{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    margin-top: 50px;
+    padding: 8px 25px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+}
+.first_part a
+{
+    color:hsl(31, 77%, 52%) ;
+}
+.sec_part a
+{
+    color:hsl(184, 100%, 22%) ;
+}
+.third_part a
+{
+    color:hsl(179, 100%, 13%) ;
+}
+a:hover
+{
+    background-color: transparent;
+    color: white;
+}
+h2
+{
+    color :hsl(0, 0%, 95%);
+    padding: 10px 0px;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.sec_part
+{
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+    height: 450px;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-left: 35px;
+    padding-top: 30px;
+
+}
+.third_part
+{
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    height: 450px;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-left: 35px;
+    padding-top: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.first_part i
+{
+    color: hsl(31, 74%, 72%);
+}
+.sec_part i
+{
+    color:hsl(184, 65%, 38%) ;
+}
+.third_part i
+{
+    color: hsl(179, 52%, 28%);
+}
+@media(max-width:375px)
+{
+    .main
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    }
+}
